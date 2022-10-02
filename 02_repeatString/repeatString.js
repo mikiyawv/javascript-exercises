@@ -1,12 +1,8 @@
 const repeatString = function(word, num) {
-    if (num < 0) {
+    if (num < 0) 
         return 'ERROR';
-    }
-    let combinedWord = '';
-        for(let i = 0; i < num; i++) {
-            combinedWord += word;
-        }
-        return combinedWord; 
+    
+    return word.repeat(num);
 }
 
 // Do not edit below this line
